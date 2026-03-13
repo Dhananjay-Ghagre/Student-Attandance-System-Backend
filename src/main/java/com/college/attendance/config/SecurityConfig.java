@@ -72,9 +72,9 @@ public class SecurityConfig {
 
         CorsConfiguration configuration = new CorsConfiguration();
 
-        configuration.setAllowedOrigins(Arrays.asList(
+        configuration.setAllowedOriginPatterns(Arrays.asList(
                 "http://localhost:3000",
-                "https://student-attendance-system-frontend-one.vercel.app"
+                "https://*.vercel.app"
         ));
 
         configuration.setAllowedMethods(Arrays.asList(
