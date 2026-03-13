@@ -18,6 +18,3 @@ logs/
 # OS
 .DS_Store
 
-# Application properties
-application.properties
-application.yml
